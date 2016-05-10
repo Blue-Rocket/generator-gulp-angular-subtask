@@ -5,8 +5,8 @@ describe('Factory: <%= scriptClassName %>Factory', function() {
     <%= scriptClassName %> = _<%= scriptClassName %>Factory_;
   }));
 
-  it('should provide the meaning of life', function() {
-    expect(<%= scriptClassName %>.someMethod() == 42).toBeTruthy();
-  });
+//  it('should provide the meaning of life', function() {
+//    expect(<%= scriptClassName %>.someMethod() == 42).toBeTruthy();
+//  });
 
 });

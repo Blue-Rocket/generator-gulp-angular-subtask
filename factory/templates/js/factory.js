@@ -10,11 +10,12 @@ angular.module('<%= scriptAppName %>')
   .factory('<%= scriptClassName %>Factory', function () {
 // Service logic
 // ...
-    var meaningOfLife = 42;
+//    var meaningOfLife = 42;
 // Public API here
-    return {
-      someMethod: function () {
-        return meaningOfLife;
-      }
-    };
+//    return {
+//      someMethod: function () {
+//        return meaningOfLife;
+//      }
+//    };
+    return {};
   });

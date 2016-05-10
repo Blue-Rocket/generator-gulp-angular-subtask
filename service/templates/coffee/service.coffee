@@ -9,11 +9,6 @@
 angular.module('<%= scriptAppName %>')
 .service('<%= scriptClassName %>Service', ->
 # AngularJS will instantiate a singleton by calling "new" on this function
-  this.awesomeThings = [
-    'HTML5 Boilerplate'
-    'AngularJS'
-    'Karma'
-  ]
 
   #Important to keep this otherwise the service will return the this object which will cause errors.
   ''

@@ -1,3 +1,4 @@
+var module = angular.mock.module;
 describe('Provider: <%= scriptClassName %>', function() {
   var <%= scriptClassName %>;
   beforeEach(module('<%= scriptAppName %>'));
@@ -5,8 +6,8 @@ describe('Provider: <%= scriptClassName %>', function() {
     <%= scriptClassName %> = _<%= scriptClassName %>_;
   }));
 
-  it('should say hello', function() {
-    expect(<%= scriptClassName %>.greet()).toEqual('Hello');
-  });
+//  it('should say hello', function() {
+//    expect(<%= scriptClassName %>.greet()).toEqual('Hello');
+//  });
 
 });

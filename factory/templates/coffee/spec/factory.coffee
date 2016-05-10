@@ -1,3 +1,4 @@
+module = angular.mock.module
 describe 'Factory: <%= scriptClassName %>Factory', ->
   beforeEach module('<%= scriptAppName %>')
 
@@ -7,7 +8,7 @@ describe 'Factory: <%= scriptClassName %>Factory', ->
     <%= scriptClassName %> = _<%= scriptClassName %>Factory_
   )
 
-  it 'should provide the meaning of life', ->
-    expect(<%= scriptClassName %>.someMethod() == 42).toBeTruthy()
+  # it 'should provide the meaning of life', ->
+    # expect(<%= scriptClassName %>.someMethod() == 42).toBeTruthy()
 
 

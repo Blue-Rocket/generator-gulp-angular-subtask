@@ -1,4 +1,5 @@
 'use strict';
+var module = angular.mock.module;
 describe('Controller: <%= scriptClassName %>Ctrl', function () {
 // load the controller's module
   beforeEach(module('<%= scriptAppName %>'));

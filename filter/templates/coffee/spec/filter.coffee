@@ -1,5 +1,5 @@
 'use strict'
-
+module = angular.mock.module
 describe 'Filter: <%= scriptClassName %>', ->
   # load the filter's module
   beforeEach module '<%= scriptAppName %>'
@@ -8,6 +8,6 @@ describe 'Filter: <%= scriptClassName %>', ->
   beforeEach inject ($filter) ->
     <%= scriptClassName %> = $filter '<%= scriptClassName %>'
 
-  it 'should return the input prefixed with "<%= scriptClassName %> filter:"', ->
-    text = 'angularjs'
-    expect(<%= scriptClassName %> text).toBe ('<%= scriptClassName %> filter: ' + text)
+  # it 'should return the input prefixed with "<%= scriptClassName %> filter:"', ->
+    # text = 'angularjs'
+    # expect(<%= scriptClassName %> text).toBe ('<%= scriptClassName %> filter: ' + text)

@@ -1,5 +1,5 @@
 'use strict'
-
+module = angular.mock.module
 describe 'Directive: <%= scriptClassName %>', ->
 
   # load the directive's module

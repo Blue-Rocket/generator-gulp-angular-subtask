@@ -1,5 +1,5 @@
 'use strict';
-
+var module = angular.mock.module;
 describe('Filter: <%= scriptClassName %>', function () {
 // load the filter's module
   beforeEach(module('<%= scriptAppName %>'));
@@ -8,8 +8,8 @@ describe('Filter: <%= scriptClassName %>', function () {
   beforeEach(inject(function ($filter) {
     <%= scriptClassName %> = $filter('<%= scriptClassName %>');
   }));
-  it('should return the input prefixed with "<%= scriptClassName %> filter:"', function () {
-    var text = 'angularjs';
-    expect(<%= scriptClassName %>(text)).toBe('<%= scriptClassName %> filter: ' + text);
-  });
+//  it('should return the input prefixed with "<%= scriptClassName %> filter:"', function () {
+//    var text = 'angularjs';
+//    expect(<%= scriptClassName %>(text)).toBe('<%= scriptClassName %> filter: ' + text);
+//  });
 });

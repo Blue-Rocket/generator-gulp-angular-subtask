@@ -1,3 +1,4 @@
+module = angular.mock.module
 describe 'Provider: <%= scriptClassName %>', ->
   <%= scriptClassName %> = {}
   beforeEach(module('<%= scriptAppName %>'));
@@ -5,7 +6,7 @@ describe 'Provider: <%= scriptClassName %>', ->
     <%= scriptClassName %> = _<%= scriptClassName %>_
   ));
 
-  it 'should say hello', ->
-    expect(<%= scriptClassName %>.greet()).toEqual('Hello')
+  # it 'should say hello', ->
+    # expect(<%= scriptClassName %>.greet()).toEqual('Hello')
 
 

@@ -1,4 +1,5 @@
 'use strict';
+var module = angular.mock.module;
 describe('Directive: <%= scriptClassName %>', function () {
 // load the directive's module
   beforeEach(module('<%= scriptAppName %>'));
