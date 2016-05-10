@@ -8,9 +8,4 @@
 ###
 angular.module('<%= scriptAppName %>')
 .controller '<%= scriptClassName %>Ctrl', ($scope) ->
-  $scope.awesomeThings = [
-    'HTML5 Boilerplate'
-    'AngularJS'
-    'Karma'
-  ]
   $scope
